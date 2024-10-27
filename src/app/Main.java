@@ -6,11 +6,17 @@ public class Main {
 
         int a = 8;
         int b = 2;
-        int c = add(a,b);
+        int c = add(a, b);
         System.out.println(c);
+        int d = multiplay(a, b);
+        System.out.println(d);
     }
 
-    private static int add(int a, int b){
+    private static int add(int a, int b) {
         return a + b;
+    }
+
+    private static int multiplay(int a, int b) {
+        return a * b;
     }
 }
